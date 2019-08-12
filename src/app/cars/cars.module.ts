@@ -6,6 +6,7 @@ import { CarsListComponent } from './cars-list/cars-list.component';
 
 @NgModule({
   declarations: [CarsListComponent],
+  exports: [CarsListComponent],
   imports: [
     CommonModule
   ]
